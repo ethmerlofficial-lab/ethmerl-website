@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="ETHMERL - Yazılım, teknoloji ve akıllı çözümler.">
+  <title>ETHMERL | Technology & Innovation</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #f8fafc;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 24px 8%;
+      border-bottom: 1px solid #263244;
+    }
+    .logo {
+      font-size: 27px;
+      font-weight: 800;
+      letter-spacing: 3px;
+    }
+    nav a {
+      color: #cbd5e1;
+      text-decoration: none;
+      margin-left: 20px;
+    }
+    main {
+      min-height: 65vh;
+      display: flex;
+      align-items: center;
+      padding: 70px 8%;
+    }
+    .content { max-width: 760px; }
+    .eyebrow {
+      color: #38bdf8;
+      letter-spacing: 3px;
+      font-size: 13px;
+      font-weight: bold;
+    }
+    h1 {
+      font-size: clamp(38px, 7vw, 76px);
+      line-height: 1.12;
+      margin: 20px 0;
+    }
+    h1 span { color: #38bdf8; }
+    p {
+      color: #94a3b8;
+      font-size: 18px;
+      line-height: 1.8;
+    }
+    .button {
+      display: inline-block;
+      margin-top: 24px;
+      padding: 14px 24px;
+      background: #0284c7;
+      border-radius: 8px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section { padding: 40px 8% 80px; }
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: #152238;
+      border: 1px solid #263b55;
+      padding: 28px;
+      border-radius: 14px;
+    }
+    .card h3 { color: #f8fafc; }
+    footer {
+      padding: 30px 8%;
+      border-top: 1px solid #263244;
+      color: #94a3b8;
+      text-align: center;
+    }
+    @media (max-width: 600px) {
+      header { flex-direction: column; gap: 18px; }
+      nav a { margin: 0 9px; }
+      main { min-height: 55vh; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">ETHMERL</div>
+    <nav>
+      <a href="#home">Ana Sayfa</a>
+      <a href="#projects">Projeler</a>
+      <a href="#contact">İletişim</a>
+    </nav>
+  </header>
+
+  <main id="home">
+    <div class="content">
+      <div class="eyebrow">TECHNOLOGY & INNOVATION</div>
+      <h1>Geleceği <span>teknolojiyle</span> şekillendiriyoruz.</h1>
+      <p>
+        ETHMERL; yazılım, mobil uygulamalar, nesnelerin interneti
+        ve akıllı teknolojiler alanında yenilikçi çözümler
+        geliştirmeyi hedefleyen bir teknoloji markasıdır.
+      </p>
+      <a class="button" href="#projects">Projelerimizi Keşfedin</a>
+    </div>
+  </main>
+
+  <section id="projects">
+    <h2>Çalışma Alanlarımız</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Mobil Uygulamalar</h3>
+        <p>iOS ve Android platformları için kullanıcı odaklı çözümler.</p>
+      </div>
+      <div class="card">
+        <h3>Akıllı IoT Sistemleri</h3>
+        <p>Sensör teknolojileri, veri takibi ve akıllı otomasyon.</p>
+      </div>
+      <div class="card">
+        <h3>Yapay Zekâ</h3>
+        <p>Günlük yaşamı ve iş süreçlerini kolaylaştıran teknolojiler.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>İletişim: info@ethmerl.com</p>
+    <small>© 2026 ETHMERL. Tüm hakları saklıdır.</small>
+  </footer>
+</body>
+</html>
